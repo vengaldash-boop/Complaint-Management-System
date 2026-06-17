@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f2f2f2;
+}
+
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.login-card h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:48px;
+}
+
+.login-card input{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:17px;
+    box-sizing:border-box;
+}
+
+.login-card input:focus{
+    border-color:#4a7cff;
+    outline:none;
+}
+
+.captcha-label{
+    font-size:18px;
+}
+
+.captcha-box{
+    margin-top:10px;
+    margin-bottom:15px;
+    border:2px dashed #ccc;
+    padding:18px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:10px;
+    color:#444;
+}
+
+.login-btn{
+    width:100%;
+    padding:16px;
+    background:#4a7cff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#3569f0;
+}
+
+.signup-link{
+    text-align:center;
+    margin-top:20px;
+    font-size:17px;
+}
+
+.signup-link a{
+    color:#4a7cff;
+    text-decoration:none;
+    font-weight:bold;
+}
